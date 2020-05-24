@@ -1,0 +1,19 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
+  }
+}
