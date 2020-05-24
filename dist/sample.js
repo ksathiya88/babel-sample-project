@@ -1,6 +1,6 @@
 "use strict";
 
-let sum = (a, b) => {
+var sum = function sum(a, b) {
   return a + b;
 };
 

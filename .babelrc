@@ -1,12 +1,3 @@
 {
-  "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "browsers": ["chrome >= 78"]
-        }
-      }
-    ]
-  ]
+  "presets": ["@babel/preset-env"]
 }
